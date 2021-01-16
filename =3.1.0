@@ -1,0 +1,14 @@
+
+> fibers@5.0.0 install /var/www/html/weibo1/node_modules/fibers
+> node build.js || nodejs build.js
+
+make: Entering directory '/var/www/html/weibo1/node_modules/fibers/build'
+  CXX(target) Release/obj.target/fibers/src/fibers.o
+  CXX(target) Release/obj.target/fibers/src/coroutine.o
+  CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+  SOLINK_MODULE(target) Release/obj.target/fibers.node
+  COPY Release/fibers.node
+make: Leaving directory '/var/www/html/weibo1/node_modules/fibers/build'
+Installed in `/var/www/html/weibo1/node_modules/fibers/bin/linux-ia32-59-glibc/fibers.node`
++ fibers@5.0.0
+added 2 packages in 16.215s
