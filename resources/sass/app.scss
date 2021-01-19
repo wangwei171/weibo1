@@ -31,4 +31,19 @@ footer{
 		width:17px;
 		height:17px;
 	}
+
+}
+
+.gravatar{
+	max-width:50px;
+	border-radius:50%;
+}
+
+section.user_info{
+	text-align:center;
+
+	h1{
+		font-size:1.4em;
+		margin-top:15px;
+	}
 }

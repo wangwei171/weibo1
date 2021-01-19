@@ -10935,3 +10935,17 @@ footer img.brand-icon {
   height: 17px;
 }
 
+.gravatar {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+section.user_info {
+  text-align: center;
+}
+
+section.user_info h1 {
+  font-size: 1.4em;
+  margin-top: 15px;
+}
+
