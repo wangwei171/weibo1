@@ -8,6 +8,13 @@ use App\Models\User;
 
 class SessionsController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('throttle:10,10',[
+            'only' => ['store']
+        ]);
+    }
+
     public function create()
     {
     	return view('sessions.create');
