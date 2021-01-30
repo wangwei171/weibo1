@@ -95,7 +95,7 @@ class PasswordController extends Controller
     		}
 
     		//检查令牌是否正确
-    		if(!Hash::check($token,$record['token']))
+    		if(!Hash::check($token,$records['token']))
     		{
     			session()->flash('danger','密码重置令牌不正确');
     			return redirect()->back();
