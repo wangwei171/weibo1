@@ -56,3 +56,28 @@ section.user_info{
 		max-width:100px;
 	}
 }
+
+.stats{
+	overflow:auto;
+
+	a{
+		float:left;
+		padding:0 10px;
+		text-align:center;
+		border-left:1px solid #eee;
+		width:33%;
+		&:first-child{
+			border:0;
+		}
+		&:hover{
+			color:#337ab7;
+		}
+
+	}
+
+	strong{
+		color:black;
+		font-size:1.2em;
+		display:block;
+	}
+}

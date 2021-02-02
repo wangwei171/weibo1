@@ -10958,3 +10958,29 @@ section.user_info h1 {
   max-width: 100px;
 }
 
+.stats {
+  overflow: auto;
+}
+
+.stats a {
+  float: left;
+  padding: 0 10px;
+  text-align: center;
+  border-left: 1px solid #eee;
+  width: 33%;
+}
+
+.stats a:first-child {
+  border: 0;
+}
+
+.stats a:hover {
+  color: #337ab7;
+}
+
+.stats strong {
+  color: black;
+  font-size: 1.2em;
+  display: block;
+}
+

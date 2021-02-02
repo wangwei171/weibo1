@@ -17,6 +17,10 @@
 			<section class="user_info">
 				@include('shared._user_info',['user' => Auth::user()])
 			</section>
+
+			<section class="mt-4 stats">
+				@include('shared._stats',['user' => Auth::user()])
+			</section>
 		</aside>
 	</div>
 @else
